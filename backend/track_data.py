@@ -4,9 +4,8 @@ track_data = {
         "length_km": 5.513,
         "turn_count": 20,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 414,
+        "degradation_level": "Medium",
         "street_circuit": False
     },
     "Bahrain": {
@@ -14,9 +13,8 @@ track_data = {
         "length_km": 5.412,
         "turn_count": 15,
         "drs_zones": 3,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 440,
+        "degradation_level": "High",
         "street_circuit": False
     },
     "Baku": {
@@ -24,9 +22,8 @@ track_data = {
         "length_km": 6.003,
         "turn_count": 20,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 316,
+        "degradation_level": "Low",
         "street_circuit": True
     },
     "Barcelona": {
@@ -34,9 +31,8 @@ track_data = {
         "length_km": 4.655,
         "turn_count": 14,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 367,
+        "degradation_level": "High",
         "street_circuit": False
     },
     "Buddh": {
@@ -44,9 +40,8 @@ track_data = {
         "length_km": 5.125,
         "turn_count": 16,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 408,
+        "degradation_level": "Low",
         "street_circuit": False
     },
     "Hockenheim": {
@@ -54,9 +49,8 @@ track_data = {
         "length_km": 4.574,
         "turn_count": 17,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 307,
+        "degradation_level": "Low",
         "street_circuit": False
     },
     "Hungaroring": {
@@ -64,9 +58,8 @@ track_data = {
         "length_km": 4.381,
         "turn_count": 14,
         "drs_zones": 1,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 364,
+        "degradation_level": "Medium",
         "street_circuit": False
     },
     "Imola": {
@@ -74,9 +67,8 @@ track_data = {
         "length_km": 4.909,
         "turn_count": 19,
         "drs_zones": 1,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 548,
+        "degradation_level": "Medium",
         "street_circuit": False
     },
     "Interlagos": {
@@ -84,9 +76,8 @@ track_data = {
         "length_km": 4.309,
         "turn_count": 15,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 295,
+        "degradation_level": "Medium",
         "street_circuit": False
     },
     "Istanbul": {
@@ -94,9 +85,8 @@ track_data = {
         "length_km": 5.338,
         "turn_count": 14,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 385,
+        "degradation_level": "Medium",
         "street_circuit": False
     },
     "Jeddah": {
@@ -104,9 +94,8 @@ track_data = {
         "length_km": 6.175,
         "turn_count": 27,
         "drs_zones": 3,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 337,
+        "degradation_level": "Medium",
         "street_circuit": True
     },
     "Korea": {
@@ -114,9 +103,8 @@ track_data = {
         "length_km": 5.615,
         "turn_count": 18,
         "drs_zones": 1,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 370,
+        "degradation_level": "Medium",
         "street_circuit": False
     },
     "Las Vegas": {
@@ -124,9 +112,8 @@ track_data = {
         "length_km": 6.201,
         "turn_count": 17,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 290,
+        "degradation_level": "Low",
         "street_circuit": True
     },
     "Lusail": {
@@ -134,9 +121,8 @@ track_data = {
         "length_km": 5.419,
         "turn_count": 16,
         "drs_zones": 1,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 405,
+        "degradation_level": "High",
         "street_circuit": False
     },
     "Madrid": {
@@ -145,8 +131,7 @@ track_data = {
         "turn_count": 22,
         "drs_zones": 2,
         "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "degradation_level": "Medium",
         "street_circuit": True
     },
     "Marina Bay": {
@@ -154,9 +139,8 @@ track_data = {
         "length_km": 5.063,
         "turn_count": 19,
         "drs_zones": 3,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 404,
+        "degradation_level": "Low",
         "street_circuit": True
     },
     "Melbourne": {
@@ -164,9 +148,8 @@ track_data = {
         "length_km": 5.303,
         "turn_count": 14,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 280,
+        "degradation_level": "Medium",
         "street_circuit": True
     },
     "Mexico City": {
@@ -174,9 +157,8 @@ track_data = {
         "length_km": 4.304,
         "turn_count": 17,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 378,
+        "degradation_level": "High",
         "street_circuit": False
     },
     "Miami": {
@@ -184,9 +166,8 @@ track_data = {
         "length_km": 5.41,
         "turn_count": 19,
         "drs_zones": 3,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 379,
+        "degradation_level": "High",
         "street_circuit": False
     },
     "Monaco": {
@@ -194,9 +175,8 @@ track_data = {
         "length_km": 3.337,
         "turn_count": 19,
         "drs_zones": 1,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 350,
+        "degradation_level": "Low",
         "street_circuit": True
     },
     "Monza": {
@@ -204,9 +184,8 @@ track_data = {
         "length_km": 5.793,
         "turn_count": 11,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 417,
+        "degradation_level": "Low",
         "street_circuit": False
     },
     "Montreal": {
@@ -214,9 +193,8 @@ track_data = {
         "length_km": 4.361,
         "turn_count": 14,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 404,
+        "degradation_level": "Low",
         "street_circuit": True
     },
     "Mugello": {
@@ -224,9 +202,8 @@ track_data = {
         "length_km": 5.245,
         "turn_count": 15,
         "drs_zones": 1,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 389,
+        "degradation_level": "Medium",
         "street_circuit": False
     },
     "Nurburgring": {
@@ -234,9 +211,8 @@ track_data = {
         "length_km": 5.148,
         "turn_count": 15,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 377,
+        "degradation_level": "Low",
         "street_circuit": False
     },
     "Paul Ricard": {
@@ -244,9 +220,8 @@ track_data = {
         "length_km": 5.842,
         "turn_count": 15,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 423,
+        "degradation_level": "Low",
         "street_circuit": False
     },
     "Portimao": {
@@ -254,9 +229,8 @@ track_data = {
         "length_km": 4.653,
         "turn_count": 15,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 472,
+        "degradation_level": "Low",
         "street_circuit": False
     },
     "Sepang": {
@@ -264,9 +238,8 @@ track_data = {
         "length_km": 5.543,
         "turn_count": 15,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 419,
+        "degradation_level": "High",
         "street_circuit": False
     },
     "Shanghai": {
@@ -274,9 +247,8 @@ track_data = {
         "length_km": 5.451,
         "turn_count": 16,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 370,
+        "degradation_level": "High",
         "street_circuit": False
     },
     "Silverstone": {
@@ -284,9 +256,8 @@ track_data = {
         "length_km": 5.891,
         "turn_count": 18,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 510,
+        "degradation_level": "High",
         "street_circuit": False
     },
     "Sochi": {
@@ -294,9 +265,8 @@ track_data = {
         "length_km": 5.848,
         "turn_count": 18,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 418,
+        "degradation_level": "Low",
         "street_circuit": False
     },
     "Spa-Francorchamps": {
@@ -304,9 +274,8 @@ track_data = {
         "length_km": 7.004,
         "turn_count": 19,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 367,
+        "degradation_level": "Medium",
         "street_circuit": False
     },
     "Spielberg": {
@@ -314,9 +283,8 @@ track_data = {
         "length_km": 4.318,
         "turn_count": 10,
         "drs_zones": 3,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 359,
+        "degradation_level": "Medium",
         "street_circuit": False
     },
     "Suzuka": {
@@ -324,9 +292,8 @@ track_data = {
         "length_km": 5.807,
         "turn_count": 18,
         "drs_zones": 1,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 405,
+        "degradation_level": "High",
         "street_circuit": False
     },
     "Valencia": {
@@ -334,9 +301,8 @@ track_data = {
         "length_km": 5.419,
         "turn_count": 25,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 334,
+        "degradation_level": "Medium",
         "street_circuit": True
     },
     "Yas Marina": {
@@ -344,9 +310,8 @@ track_data = {
         "length_km": 5.554,
         "turn_count": 16,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 630,
+        "degradation_level": "Medium",
         "street_circuit": False
     },
     "Zandvoort": {
@@ -354,9 +319,22 @@ track_data = {
         "length_km": 4.259,
         "turn_count": 14,
         "drs_zones": 2,
-        "pit_lane_length_m": None,
-        "degradation_level": "",
-        "grip_level": "",
+        "pit_lane_length_m": 235,
+        "degradation_level": "High",
         "street_circuit": False
     }
 }
+
+alternate_names = [
+    ["Bahrain", "Sakhir"],
+    ["Hungaroring", "Budapest"],
+    ["Interlagos", "São Paulo"],
+    ["Marina Bay", "Singapore"],
+    ["Miami", "Miami Gardens"],
+    ["Monaco", "Monte Carlo"],
+    ["Montreal", "Montréal"],
+    ["Nurburgring", "Nürburgring"],
+    ["Paul Ricard", "Le Castellet"],
+    ["Portimao", "Portimão"],
+    ["Yas Marina", "Abu Dhabi", "Yas Island"]
+]
