@@ -134,34 +134,44 @@ for year in range(2018, current_datetime.year + 1):
             })
         ], ignore_index=True)
 
+# Manually insert the final standings for 2017
+final_2017_driver_points = {
+    'HAM': 363, 'VET': 317, 'BOT': 305, 'RAI': 205, 'RIC': 200,
+    'VER': 168, 'PER': 100, 'OCO': 87, 'SAI': 54, 'HUL': 43,
+    'MAS': 43, 'STR': 40, 'GRO': 28, 'MAG': 19, 'ALO': 17,
+    'VAN': 13, 'PAL': 8, 'WEH': 5, 'KVY': 5
+}
+final_2017_constructor_points = {
+    'Mercedes': 668, 'Ferrari': 522, 'Red Bull Racing': 368, 'Force India': 187,
+    'Williams': 83, 'Renault': 57, 'Toro Rosso': 53, 'Haas F1 Team': 47,
+    'McLaren': 30, 'Sauber': 5
+}
+for driver, pts in final_2017_driver_points.items():
+    driver_points_df = pd.concat([
+        driver_points_df,
+        pd.DataFrame({
+            'Season': 2017,
+            'Round': 20,
+            'Driver': [driver],
+            'Points': [pts]
+        })
+    ], ignore_index=True)
+
+for constructor, pts in final_2017_constructor_points.items():
+    constructor_points_df = pd.concat([
+        constructor_points_df,
+        pd.DataFrame({
+            'Season': 2017,
+            'Round': 20,
+            'Constructor': [constructor],
+            'Points': [pts]
+        })
+    ], ignore_index=True)
+
 # --- Sort tables ---
 driver_points_df = driver_points_df.sort_values(['Season','Round','Points'], ascending=[True,True,False]).reset_index(drop=True)
 constructor_points_df = constructor_points_df.sort_values(['Season','Round','Points'], ascending=[True,True,False]).reset_index(drop=True)
 
-# --- Helper functions to get points after any round ---
-def get_driver_points(season, round_number, driver_abbr):
-    row = driver_points_df[
-        (driver_points_df['Season'] == season) &
-        (driver_points_df['Round'] == round_number) &
-        (driver_points_df['Driver'] == driver_abbr)
-    ]
-    if not row.empty:
-        return row['Points'].values[0]
-    return None
-
-def get_constructor_points(season, round_number, constructor_name):
-    row = constructor_points_df[
-        (constructor_points_df['Season'] == season) &
-        (constructor_points_df['Round'] == round_number) &
-        (constructor_points_df['Constructor'] == constructor_name)
-    ]
-    if not row.empty:
-        return row['Points'].values[0]
-    return None
-
-# --- Example usage ---
-print(get_driver_points(2021, 21, 'VER'))
-print(get_constructor_points(2021, 10, 'Red Bull Racing'))
 
 driver_points_df.to_csv("driver_cumulative_points.csv", index=False)
 constructor_points_df.to_csv("constructor_cumulative_points.csv", index=False)
