@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Load the driver and constructor standings from the CSV files
-driver_points_df = pd.read_csv('driver_cumulative_points.csv')
-constructor_points_df = pd.read_csv('constructor_cumulative_points.csv')
+driver_points_df = pd.read_csv('csv/driver_cumulative_points.csv')
+constructor_points_df = pd.read_csv('csv/constructor_cumulative_points.csv')
 
 # Create helper functions to get points after any round
 def get_driver_points(season, round_number, driver_abbr):

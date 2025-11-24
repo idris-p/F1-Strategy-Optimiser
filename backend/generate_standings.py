@@ -173,5 +173,5 @@ driver_points_df = driver_points_df.sort_values(['Season','Round','Points'], asc
 constructor_points_df = constructor_points_df.sort_values(['Season','Round','Points'], ascending=[True,True,False]).reset_index(drop=True)
 
 
-driver_points_df.to_csv("driver_cumulative_points.csv", index=False)
-constructor_points_df.to_csv("constructor_cumulative_points.csv", index=False)
+driver_points_df.to_csv("csv/driver_cumulative_points.csv", index=False)
+constructor_points_df.to_csv("csv/constructor_cumulative_points.csv", index=False)
